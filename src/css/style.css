@@ -1,3 +1,117 @@
 @import "../../node_modules/normalize.css/normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;700;800&display=swap");
+html, body {
+  font-size: 16px;
+}
+
+.header {
+  box-shadow: 0px 8px 24px 0px rgb(66, 68, 90);
+  padding: 1.25rem 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.header__inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 8.5rem;
+}
+
+.logo__text {
+  text-transform: uppercase;
+  color: #08A6E4;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__item {
+  text-align: center;
+  text-decoration: none;
+  color: #A5A5A5;
+  font-family: "OpenSans", sans-serif;
+  font-weight: bold;
+  font-size: 0.6875rem;
+  margin-inline: 2.8125rem;
+}
+.menu__active {
+  color: black;
+}
+
+.main__inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main__inner .main__hdl {
+  margin-top: 5.625rem;
+  margin-bottom: 1.25rem;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 3.0625rem;
+  font-weight: 400;
+}
+.main__inner .main__lead {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 3.75rem;
+}
+.main__inner .main__row .main__btn {
+  text-decoration: none;
+  color: white;
+  background-color: #08A6E4;
+  padding-inline: 9.8125rem;
+  padding-top: 1.375rem;
+  padding-bottom: 1.4375rem;
+  border-radius: 2.5rem;
+  font-family: "OpenSans", sans-serif;
+  font-weight: Bold;
+}
+.main__inner .main__bg {
+  background: url(../images/Background.png) no-repeat center;
+  width: 100%;
+  height: 37.125rem;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /*# sourceMappingURL=style.css.map */

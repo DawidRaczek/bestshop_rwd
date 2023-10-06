@@ -1,0 +1,10 @@
+@import "../variables";
+
+@mixin font-face($font-name, $font-file) {
+  @font-face {
+    font-family: $font-name;
+    src: url('') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+}

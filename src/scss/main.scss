@@ -1,1 +1,16 @@
 @import "../../node_modules/normalize.css/normalize.css";
+
+@import "./global";
+
+@import "./media_queries";
+
+@import "./utils/functions";
+
+@import "./components/menu";
+@import "./components/frontpage";
+
+@import "./mixins/mixin";
+
+@import "variables";
+
+@import "./typo/fonts";

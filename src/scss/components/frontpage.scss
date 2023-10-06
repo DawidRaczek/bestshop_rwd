@@ -1,0 +1,60 @@
+@import "../utils/functions";
+
+.intro {
+
+}
+
+.main {
+
+  &__inner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .main__hdl {
+      margin-top: rem(90px);
+      margin-bottom: rem(20px);
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-size: rem(49px);
+      font-weight: 400;
+
+    }
+
+    .main__lead {
+      font-family: 'OpenSans', sans-serif;
+      font-weight: 400;
+      margin-bottom: rem(60px);
+    }
+
+    .main__row {
+
+      .main__btn{
+        text-decoration: none;
+        color: white;
+        background-color: #08A6E4;
+        padding-inline: rem(157px);
+        padding-top: rem(22px);
+        padding-bottom: rem(23px);
+        border-radius: rem(40px);
+        font-family: 'OpenSans', sans-serif;
+        font-weight: Bold;
+
+
+        .main-large{
+
+        }
+      }
+
+    }
+  .main__bg {
+    background: url(../images/Background.png) no-repeat center;
+    width: 100%;
+    height: rem(594px);
+  }
+
+  }
+
+}
